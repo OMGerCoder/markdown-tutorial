@@ -1,0 +1,17 @@
+title: Markdown Tutorial
+tagline: A brand new course on Learning Lab
+description: Just a markdown tutorial by me.
+template:
+  repo: markdown-tutorial-template
+  name: markdown-tutorial
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
