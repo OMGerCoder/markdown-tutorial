@@ -9,7 +9,7 @@ before:
     title: Welcome!
     body: new-issue.md
     comments: 
-      - Sorry, this is still in dev.
+      - Remove this issue to complete the beta course.
 steps:
   - title: First step
     description: The first step in your course
