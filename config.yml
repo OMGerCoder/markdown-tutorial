@@ -8,7 +8,8 @@ before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
-    comments: Sorry, this is still in dev.
+    comments: 
+      - Sorry, this is still in dev.
 steps:
   - title: First step
     description: The first step in your course
